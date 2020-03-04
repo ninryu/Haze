@@ -8,7 +8,7 @@
 }
 
 @font-face{
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-stretch: normal;
     src: url(./src/SourceCodePro-Black.ttf.) format('truetype');
@@ -53,7 +53,7 @@ body{
 
 a.links{
     display: block;
-    font-family: gotham, monofonto;
+    font-family: 'Source Code Pro', monospace;
     text-decoration: none;
     color: var(--c2);
     height: 20px;
